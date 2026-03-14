@@ -1,0 +1,91 @@
+{
+  "blog": {
+    "title": "OpenClaw 商业化变现指南",
+    "subtitle": "每天一个 AI 自动化盈利方案",
+    "author": "杨勇",
+    "email": "pyastar65@gmail.com",
+    "timezone": "Asia/Shanghai"
+  },
+  "schedule": {
+    "daily": {
+      "time": "09:00",
+      "cron": "0 9 * * *",
+      "enabled": true
+    },
+    "weekly": {
+      "day": "Monday",
+      "time": "10:00",
+      "cron": "0 10 * * 1",
+      "enabled": true
+    }
+  },
+  "sources": {
+    "github": {
+      "enabled": true,
+      "repos": [
+        "openclaw/openclaw",
+        "openclaw/skills"
+      ],
+      "topics": [
+        "monetization",
+        "business",
+        "automation",
+        "ai-assistant"
+      ],
+      "apiKey": ""
+    },
+    "rss": {
+      "enabled": false,
+      "feeds": []
+    },
+    "search": {
+      "enabled": true,
+      "keywords": [
+        "AI 自动化变现",
+        "智能助理盈利",
+        "被动收入",
+        "自动化营销",
+        "AI 副业"
+      ]
+    }
+  },
+  "content": {
+    "dailyLength": {
+      "min": 500,
+      "max": 1000
+    },
+    "weeklyLength": {
+      "min": 2000,
+      "max": 3000
+    },
+    "templates": [
+      "case-study",
+      "tutorial",
+      "tool-review",
+      "business-model"
+    ],
+    "language": "zh-CN"
+  },
+  "publish": {
+    "github": {
+      "enabled": true,
+      "repo": "pyastar/studyai",
+      "branch": "main",
+      "folder": "posts",
+      "url": "https://github.com/pyastar/studyai",
+      "autoPush": true,
+      "token": ""
+    },
+    "csdn": {
+      "enabled": true,
+      "auto": true,
+      "browser": "chrome",
+      "username": ""
+    }
+  },
+  "monitoring": {
+    "logLevel": "info",
+    "notifyOnError": true,
+    "notifyChannel": "dingtalk"
+  }
+}
