@@ -1,0 +1,18 @@
+{
+  "backup_time": "20260316-212615",
+  "date": "2026-03-16",
+  "project": "openclaw-monetization-blog",
+  "files": {
+    "config": "config-20260316-212615.tar.gz",
+    "docs": "docs-20260316-212615.tar.gz",
+    "posts": "posts-20260316-212615.tar.gz",
+    "logs": "logs-20260316-212615.tar.gz"
+  },
+  "git_commit": "4871748614d59bb8a8e703b7b92a36d5944d2b75",
+  "git_branch": "master",
+  "system_info": {
+    "hostname": "iZuf6iem6hdk27yr7jno84Z",
+    "user": "admin",
+    "date": "2026-03-16 21:26:15 CST"
+  }
+}

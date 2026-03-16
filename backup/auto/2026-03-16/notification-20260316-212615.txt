@@ -1,0 +1,11 @@
+✅ 自动备份完成
+
+📅 时间：2026-03-16 20260316-212615
+📁 备份位置：backup/2026-03-16/
+📦 备份文件:
+  - config-20260316-212615.tar.gz
+  - docs-20260316-212615.tar.gz
+  - posts-20260316-212615.tar.gz
+  - logs-20260316-212615.tar.gz
+
+🔗 GitHub: https://github.com/pyastar/studyai/tree/main/backup/2026-03-16
